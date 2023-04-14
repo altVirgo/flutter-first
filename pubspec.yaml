@@ -30,11 +30,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bruno: 2.2.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  # UI组件
+  flukit: ^3.0.1
+  # 简单数据存储
+  shared_preferences: ^2.0.15
+  # 路由管理 & 状态管理
+  get: ^4.6.5
+  # 提示
+  oktoast: ^3.2.0
+  # 屏幕尺寸
+  flutter_screenutil: ^5.5.3+2
 
 dev_dependencies:
   flutter_test:
@@ -63,11 +72,7 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - assets/icon01.png
-    - assets/icon02.png
-    - assets/icon03.png
-    - assets/icon04.png
-    - assets/avatar.jpeg
+    - assets/images/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
